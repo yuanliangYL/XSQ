@@ -1,0 +1,38 @@
+<!--myteam.wxml-->
+<view class="container">
+
+  <!--团队名称-->
+  <view class="teamInfo teamInfospace borderView">
+    <view class="title">
+      <text class="nametext-left">团队名称</text>
+    </view>
+    <view class="subtitle">
+      <text class="nametext-right">飓风队</text>
+    </view>
+  </view>
+
+  <!--团队成员-->
+  <view class="teamInfo">
+    <view class="title">
+      <text class="nametext-left">团队成员</text>
+    </view>
+    <view class="subtitle">
+      <text class="nametext-right">9人</text>
+    </view>
+  </view>
+
+
+  <view class="setionview">
+
+    <view wx:for="[a b c d e f ]" class="eachitem borderView" >
+      <view class="eachitem-content">
+        <image mode="scaleToFill" src="../../images/adver.png"></image>
+        <text class="nametext">小李</text>
+      </view>
+    </view>
+  </view>
+
+
+
+
+</view>

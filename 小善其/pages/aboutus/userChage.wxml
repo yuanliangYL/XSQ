@@ -1,0 +1,133 @@
+<!--userChage.wxml-->
+<scroll-view scroll-y="true" style="width:100%;height:100%;display:block;align-items: center;background-color: #f5f5f5;">
+
+
+  <!--姓名-->
+  <view class="itemView marginViewA">
+
+    <view class="itemView-left">
+      <image class="left-image" mode="scaleToFill" src="../../images/user_head.png"></image>
+    </view>
+
+    <view class="itemView-center">
+      <text class="center-text">姓名</text>
+    </view>
+
+    <view class="itemView-right">
+      <input placeholder="请输入用户姓名" placeholder-style="color:lightgray; font-size: 80%;font-family: Arial, Helvetica, sans-serif;" style="width:100%;height:100%;" value="" />
+    </view>
+  </view>
+
+
+  <!--身份证号-->
+  <view class="itemView marginViewB">
+
+    <view class="itemView-left">
+      <image class="left-image" mode="scaleToFill" src="../../images/cart.png"></image>
+    </view>
+
+    <view class="itemView-center">
+      <text class="center-text">身份证号</text>
+    </view>
+
+    <view class="itemView-right">
+      <input placeholder="请输入身份证号" placeholder-style="color:lightgray; font-size: 80%;font-family: Arial, Helvetica, sans-serif;" style="width:100%;height:100%;" value="" />
+    </view>
+  </view>
+
+
+  <!--电话-->
+  <view class="itemView marginViewB">
+
+    <view class="itemView-left">
+      <image class="left-image" mode="scaleToFill" src="../../images/call.png"></image>
+    </view>
+
+    <view class="itemView-center">
+      <text class="center-text">电话</text>
+    </view>
+
+    <view class="itemView-right">
+      <input placeholder="请输入电话号码" placeholder-style="color:lightgray; font-size: 80%;font-family: Arial, Helvetica, sans-serif;" style="width:100%;height:100%;" value="" />
+    </view>
+  </view>
+
+  <!--职业-->
+  <view class="itemView marginViewB">
+
+    <view class="itemView-left">
+      <image class="left-image" mode="scaleToFill" src="../../images/carrer.png"></image>
+    </view>
+
+    <view class="itemView-center">
+      <text class="center-text">职业</text>
+    </view>
+
+    <view class="itemView-right">
+      <input placeholder="请输入职业" placeholder-style="color:lightgray; font-size: 80%;font-family: Arial, Helvetica, sans-serif;" style="width:100%;height:100%;" value="" />
+    </view>
+  </view>
+
+  <!--位置-->
+  <view class="itemView marginViewB">
+
+    <view class="itemView-left">
+      <image class="left-image" mode="scaleToFill" src="../../images/location.png"></image>
+    </view>
+
+    <view class="itemView-center">
+      <text class="center-text">位置</text>
+    </view>
+
+    <view class="itemView-right">
+      <input placeholder="例：安徽-合肥" placeholder-style="color:lightgray; font-size: 80%;font-family: Arial, Helvetica, sans-serif;" style="width:100%;height:100%;" value="" />
+    </view>
+  </view>
+
+  <!--团队-->
+  <view class="itemView marginViewB">
+
+    <view class="itemView-left">
+      <image class="left-image" mode="scaleToFill" src="../../images/join_team.png"></image>
+    </view>
+
+    <view class="itemView-center">
+      <text class="center-text">团队</text>
+    </view>
+
+    <view class="itemView-right">
+      <input placeholder="飓风队" placeholder-style="color:lightgray; font-size: 80%;font-family: Arial, Helvetica, sans-serif;" style="width:100%;height:100%;" value="" />
+    </view>
+  </view>
+
+  <!--项目经验-->
+  <view class="itemView marginViewB">
+
+    <view class="itemView-left">
+      <image class="left-image" mode="scaleToFill" src="../../images/join_team.png"></image>
+    </view>
+
+    <view class="itemView-center">
+      <text class="center-text">项目经验</text>
+    </view>
+
+    <view class="itemView-right">
+
+    </view>
+  </view>
+  <view class="textArea">
+    <view class="intextArea">
+      <textarea placeholder="请输入您的项目经验，如:(2014.06-2015.07  婚庆策划)" placeholder-style="color:lightgray; font-size: 80%;font-family: Arial, Helvetica, sans-serif;" />
+    </view>
+
+  </view>
+
+
+
+  <!--提交-->
+  <view class="commiteView">
+    <text class="commiteView-text">提 交</text>
+  </view>
+
+
+</scroll-view>

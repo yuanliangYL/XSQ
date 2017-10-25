@@ -1,0 +1,33 @@
+<!--pages/home/home.wxml-->
+
+<view class="container">
+  <scroll-view scroll-y="true" style="height: 100%;">
+    <!--广告提示-->
+    <view class="adverPrompt">
+      <text>———合作广告———</text>
+    </view>
+
+
+    <!--广告展示-->
+    <view class="adverView">
+      <view wx:for="{{array}}" class="adverItem">
+        <image mode="scaleToFill" src="{{item.image}}"></image>
+        <text>{{item.obj}}</text>
+      </view>
+    </view>
+
+
+    <!--公司版权-->
+    <view class="companyname">
+      <view class="adverPrompt">
+        <text>《合肥善其信网络科技有限公司》</text>
+      </view>
+    </view>
+  </scroll-view>
+
+  <loading hidden="{{hidden}}">
+  加载中...
+ </loading>
+
+
+</view>

@@ -1,0 +1,37 @@
+<!--payPage.wxml-->
+
+<view class="container">
+
+  <view class="itemView">
+    <view class="itemView-left">
+      <image src="../../images/free.png" class="item_image" />
+    </view>
+    <view class="itemView-right">
+      <view class="itemView-right-item">
+        <text class="freetext">我们将收取您 1 元的注册费</text>
+      </view>
+
+      <view class="itemView-right-item">
+        <text class="explaintext">代表您享受与本公司有效合作期限为1年，中途不收取任何费用</text>
+      </view>
+
+      <view class="itemView-right-item addstyle">
+        <checkbox value="同意并接受" checked="{{ischecked}}"  bindtap="checkboxChange" />{{checktext}}
+      </view>
+       
+    </view>
+  </view>
+
+
+  <!--提交审核-->
+  <view wx:if="{{ischecked}}" class="commiteView" bindtap="isreviewed">
+    <text class="commiteView-text">提交审核</text>
+  </view>
+
+  <view wx:else class="uncommiteView">
+    <text class="commiteView-text">提交审核</text>
+  </view>
+
+
+
+</view>

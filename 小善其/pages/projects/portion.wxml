@@ -1,0 +1,83 @@
+<!--projectsDetail.wxml-->
+<view style="height:100%;display:flex;background-color: #f5f5f5;align-items: center;flex-direction: column;">
+
+  <!--简介部分-->
+  <view class="projectinfo">
+    <!--产品图-->
+    <view class="projectinfo-left">
+      <image src="../../images/adver.png" class="item_image" />
+    </view>
+    <view class="projectinfo-right">
+      <!--产品名称-->
+      <view class="projectinfo-right-top">
+        <text>大愿科技</text>
+      </view>
+      <!--产品简介-->
+      <view class="projectinfo-right-dow">
+        <text class="projectproduction">苹果产品的文案设计也是如此，情感语义化很强烈，尤其是字号大的标题文案;比如下面的4S展示页面，即强调了产品的扩展延续了4的产品功能，又在情感上柔和过度，从精彩之处再续精彩，意境营造滴啊，用户一看这几个字，再对于下面灰色调的小字。</text>
+      </view>
+    </view>
+  </view>
+
+  <!--项目开始时间-->
+  <view class="section">
+    <view class="section-left">
+      <text class="titleText">项目开始时间</text>
+    </view>
+
+    <view class="section-right">
+      <text class="subtitleText">2016年6月</text>
+    </view>
+  </view>
+
+
+  <!--项目截止时间-->
+  <view class="section">
+    <view class="section-left">
+      <text class="titleText">项目截止时间</text>
+    </view>
+
+    <view class="section-right">
+      <text class="subtitleText">2016年12月</text>
+    </view>
+  </view>
+
+
+  <view class="portionCertification">
+    <view class="portionCertification-left">
+      <text>区域份额</text>
+    </view>
+    <view class="newView">
+      <view class="newView-item">
+        <text class="city">合肥</text>
+        <text class="numbercount"> 25万</text>
+      </view>
+
+      <view class="newView-item">
+        <text class="city">北京</text>
+        <text class="numbercount"> 100万</text>
+      </view>
+
+      <view class="newView-item">
+        <text class="city">上海</text>
+        <text class="numbercount"> 2000万</text>
+      </view>
+    </view>
+  </view>
+
+
+
+  <!--项目团队-->
+  <view class="section">
+    <view class="section-left">
+      <text class="titleText">项目团队</text>
+    </view>
+
+    <view class="section-right">
+      <text class="subtitleText">大愿团队 善其团队 纸元团队</text>
+    </view>
+  </view>
+
+
+
+</view>

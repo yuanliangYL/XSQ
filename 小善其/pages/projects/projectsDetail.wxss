@@ -1,0 +1,204 @@
+/* projectsDetail.wxss */
+
+.projectinfo {
+  width: 96%;
+  height: 25%;
+  background-color: white;
+  display: flex;
+  border-radius: 4%;
+  margin-top: 3%;
+  flex-direction: row;
+  margin-left: 2%;
+}
+
+.projectinfo-left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item_image {
+  width: 80%;
+  height: 80%;
+  border-radius: 4%;
+}
+
+.projectinfo-right {
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.projectinfo-right-top {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.projectinfo-right-dow {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.projectproduction {
+  font-size: 70%;
+  color: #9e9a92;
+}
+
+.titleSetion {
+  width: 96%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.titleSetion text {
+  font-size: 80%;
+  color: black;
+  margin-left: 2%;
+}
+
+.contentSetion {
+  width: 96%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.contentSetion-item {
+  width: 90%;
+  display: flex;
+}
+
+.contentSetion text {
+  font-size: 70%;
+  color: #9e9a92;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.portionview {
+  width: 96%;
+  height: 8%;
+  display: flex;
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+  flex-direction: row;
+}
+
+.portionview-left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  margin-left: 2%;
+  align-items: center;
+}
+
+.portionview-left text {
+  font-size: 80%;
+  color: black;
+  margin-left: 2%;
+}
+
+.portionview-center {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.portionview-center text {
+  font-size: 80%;
+  color: mediumvioletred;
+}
+
+.portionview-right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  margin-left: 2%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portionview-right text {
+  font-size: 65%;
+  color: liglightgray;
+}
+
+.newView {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.newView text {
+  font-size: 70%;
+  color: gray;
+}
+
+.portionCertification {
+  width: 96%;
+  height: 30%;
+  display: flex;
+  margin-left: 2%;
+  background-color: white;
+  margin-top: 2%;
+}
+
+.portionCertification-left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.portionCertification-left text {
+  font-size: 80%;
+  color: black;
+  margin-left: 2%;
+}
+
+.projectConnection {
+  width: 96%;
+  height: 30%;
+  display: flex;
+  margin-left: 2%;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projectConnection-item {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.connectiontext{
+  font-size: 85%;
+  color: black;
+  margin-top: 10%;
+}

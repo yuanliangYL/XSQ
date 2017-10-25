@@ -1,0 +1,97 @@
+/* userChage.wxss */
+.itemView {
+  width: 90%;
+  height: 8%;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5%;
+  margin-left: 5%;
+}
+
+.marginViewA {
+  margin-top: 4%;
+}
+
+.marginViewB {
+  margin-top: 2%;
+}
+
+.itemView-left {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+}
+
+.left-image {
+  width: 70%;
+  height: 50%;
+  
+}
+
+.itemView-center {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.center-text {
+  color: #898686;
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 4%;
+}
+
+.itemView-right {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.commiteView {
+  width: 50%;
+  height: 7%;
+  border-radius: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a91c6;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+}
+
+.commiteView-text{
+  color: white;
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.textArea{
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+
+.intextArea{
+  width: 86%;
+  margin-left: 5%;
+  display: flex;
+  background-color: white;
+}

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/projects/projects",
+    "pages/aboutus/aboutus",
+    "pages/projects/projectsDetail",
+    "pages/projects/portion",
+    "pages/aboutus/userChage",
+    "pages/aboutus/companychange",
+    "pages/aboutus/myteam",
+    "pages/aboutus/myprojects",
+    "pages/aboutus/aboutxsq",
+    "pages/register/register",
+    "pages/register/payPage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3A91C6",
+    "navigationBarTitleText": "小善其",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/projects/projects",
+        "text": "项目介绍",
+        "iconPath": "images/projects.png",
+        "selectedIconPath": "images/projects_selected.png"
+      },
+      {
+        "pagePath": "pages/aboutus/aboutus",
+        "text": "个人中心",
+        "iconPath": "images/user_center.png",
+        "selectedIconPath": "images/user_center_selected.png"
+      }
+    ],
+    "color": "#999999",
+    "selectedColor": "#3A91C6",
+    "borderStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

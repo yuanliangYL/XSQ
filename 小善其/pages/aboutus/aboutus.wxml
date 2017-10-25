@@ -1,0 +1,111 @@
+<!--pages/aboutus/aboutus.wxml-->
+<view class="container">
+  <scroll-view scroll-y="true" style="height: 100%;">
+
+    <!--头部个人信息栏-->
+    <view class="userInfo">
+      <!--背景-->
+      <image style="width: 100%; height: 100%;" mode="scaleToFill" src="../../images/bg.png"></image>
+      <!--头像-->
+      <view class="headerView">
+        <image mode="scaleToFill" src="../../images/head.png"></image>
+      </view>
+      <!--微信账号-->
+      <view class="infoText">
+        <view class="topText">
+          <text class="nametext">Marvelous_YL</text>
+        </view>
+
+        <view class="downText">
+          <text class="counttext">SQXWLKJ_Number.001</text>
+        </view>
+      </view>
+    </view>
+
+
+    <!--我的等级-->
+    <view class="levelView">
+      <view class="levelView-left">
+        <image class="leftImage" mode="scaleToFill" src="../../images/level.png"></image>
+      </view>
+      <view class="levelView-center">
+        <text class="centerText">我的等级</text>
+      </view>
+      <view class="levelView-right">
+        <image mode="scaleToFill" src="../../images/level_ranking.png"></image>
+      </view>
+    </view>
+
+
+    <!--个人信息-->
+    <view class="personInfoView addborder" bindtap="gotonextpage" data-type="userchange">
+      <view class="levelView-left">
+        <image class="leftImage" mode="scaleToFill" src="../../images/change_info.png"></image>
+      </view>
+      <view class="personInfoView-center">
+        <text class="centerText">个人信息修改</text>
+      </view>
+      <view class="personInfoView-right">
+        <image class="personInfoView-right-image" mode="scaleToFill" src="../../images/arrow_right.png"></image>
+      </view>
+    </view>
+
+    <!--企业信息-->
+    <view class="personInfoView " bindtap="gotonextpage" data-type="companychange">
+      <view class="levelView-left">
+        <image class="leftImage" mode="scaleToFill" src="../../images/change_name.png"></image>
+      </view>
+      <view class="personInfoView-center">
+        <text class="centerText">企业信息修改</text>
+      </view>
+      <view class="personInfoView-right">
+        <image class="personInfoView-right-image" mode="scaleToFill" src="../../images/arrow_right.png"></image>
+      </view>
+    </view>
+
+    <!--我的团队-->
+    <view class="personInfoView addborder" bindtap="gotonextpage" data-type="myteam">
+      <view class="levelView-left">
+        <image class="leftImage" mode="scaleToFill" src="../../images/myteam.png"></image>
+      </view>
+      <view class="personInfoView-center">
+        <text class="centerText">我的团队</text>
+      </view>
+      <view class="personInfoView-right">
+        <image class="personInfoView-right-image" mode="scaleToFill" src="../../images/arrow_right.png"></image>
+      </view>
+    </view>
+
+
+    <!--我的项目-->
+    <view class="personInfoView " bindtap="gotonextpage" data-type="myprojects">
+      <view class="levelView-left">
+        <image class="leftImage" mode="scaleToFill" src="../../images/myprojects.png"></image>
+      </view>
+      <view class="levelView-center">
+        <text class="centerText">我的项目</text>
+      </view>
+      <view class="personInfoView-number">
+        <text class="centerText">3</text>
+      </view>
+      <view class="personInfoView-right">
+        <image class="personInfoView-right-image" mode="scaleToFill" src="../../images/arrow_right.png"></image>
+      </view>
+    </view>
+
+
+    <!--关于小善其-->
+    <view class="personInfoView addborder" bindtap="gotonextpage" data-type="aboutxsq">
+      <view class="levelView-left">
+        <image class="leftImage" mode="scaleToFill" src="../../images/about.png"></image>
+      </view>
+      <view class="personInfoView-center">
+        <text class="centerText">关于小善其</text>
+      </view>
+      <view class="personInfoView-right">
+        <image class="personInfoView-right-image" mode="scaleToFill" src="../../images/arrow_right.png"></image>
+      </view>
+    </view>
+
+  </scroll-view>
+</view>

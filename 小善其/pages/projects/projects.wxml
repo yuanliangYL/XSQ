@@ -1,0 +1,127 @@
+<!--projects.wxml-->
+
+
+<!--符合成员资格显示项目信息-->
+<view class="container">
+
+  <!--轮播部分-->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" style="height:25%">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <!--内容部分-->
+  <!--热门-->
+  <view class="sectionView">
+    <!--上部分提示-->
+    <view class="section-top">
+      <image src="{{array[0].image}}" class="sectiontop-image" />
+
+      <text>{{array[0].title}}</text>
+    </view>
+    <!--下部分内容-->
+    <view class="section-down">
+      <view class="item-left" bindtap="scrollToTop" data-type="cell1">
+        <image src="../../images/arrow_left.png" class="item_image" />
+      </view>
+
+      <!--<scroll-view视图-->
+      <view style="width:80%;height:100%;display:flex">
+        <scroll-view scroll-x="true" scroll-left="{{scrollTop1}}" style="height:100%;width: 100%;white-space: nowrap">
+          <view wx:for="{{array[0].projects}}" class="contentItem">
+
+            <view class="contentItem-each" bindtap="gotoDetail" data-type="hot">
+              <image src="{{item.pimg}}" class="contentItem_image" />
+              <view class="contentItem_text">{{item.ptitle}}</view>
+            </view>
+
+          </view>
+        </scroll-view>
+      </view>
+
+      <view class="item-right" bindtap="tapMoveforward" data-type="cell1">
+        <image src="../../images/arrow_right.png" class="item_image" />
+      </view>
+    </view>
+  </view>
+
+
+  <!--最新-->
+  <view class="sectionView">
+    <!--上部分提示-->
+    <view class="section-top">
+      <image src="{{array[1].image}}" class="sectiontop-image" />
+
+      <text>{{array[1].title}}</text>
+    </view>
+    <!--下部分内容-->
+    <view class="section-down">
+      <view class="item-left" bindtap="scrollToTop" data-type="cell2">
+        <image src="../../images/arrow_left.png" class="item_image" />
+      </view>
+
+      <!--<scroll-view视图-->
+      <view style="width:80%;height:100%;display:flex">
+        <scroll-view scroll-x="true" scroll-left="{{scrollTop2}}" style="height:100%;width: 100%;white-space: nowrap">
+
+          <view wx:for="{{array[1].projects}}" class="contentItem">
+            <view class="contentItem-each" bindtap="gotoDetail" data-type="new">
+              <image src="{{item.pimg}}" class="contentItem_image" />
+              <view class="contentItem_text">{{item.ptitle}}</view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+
+
+      <view class="item-right" bindtap="tapMoveforward" data-type="cell2">
+        <image src="../../images/arrow_right.png" class="item_image" />
+      </view>
+    </view>
+  </view>
+
+  <!--已下架-->
+  <view class="sectionView">
+    <!--上部分提示-->
+    <view class="section-top">
+      <image src="{{array[2].image}}" class="sectiontop-image" />
+
+      <text>{{array[2].title}}</text>
+    </view>
+
+    <!--下部分内容-->
+    <view class="section-down">
+      <view class="item-left" bindtap="scrollToTop" data-type="cell3">
+        <image src="../../images/arrow_left.png" class="item_image" />
+      </view>
+
+
+      <!--<scroll-view视图-->
+      <view style="width:80%;height:100%;display:flex">
+
+        <scroll-view scroll-x="true" scroll-left="{{scrollTop3}}" style="height:100%;width: 100%;white-space: nowrap">
+
+          <view wx:for="{{array[2].projects}}" class="contentItem">
+
+            <view class="contentItem-each" bindtap="gotoDetail" data-type="undercarriage">
+              <image src="{{item.pimg}}" class="contentItem_image" />
+              <view class="contentItem_text">{{item.ptitle}}</view>
+            </view>
+
+          </view>
+        </scroll-view>
+      </view>
+
+      <view class="item-right" bindtap="tapMoveforward" data-type="cell3">
+        <image src="../../images/arrow_right.png" class="item_image" />
+      </view>
+    </view>
+  </view>
+
+
+</view>
+
+

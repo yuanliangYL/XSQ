@@ -1,0 +1,90 @@
+/* payPage.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  background: #f5f5f5;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.itemView{
+  width: 90%;
+  height: 30%;
+  background-color: white;
+  display: flex;
+  margin-top: 5%;
+ 
+}
+
+.itemView-left{
+  width: 20%;
+   height: 100%;
+  display: flex;
+  justify-content: center
+}
+
+.itemView-left image{
+   width: 90%;
+   height: 32%;
+   margin-top: 5%;
+}
+.itemView-right{
+  width: 80%;
+   height: 100%;
+  display: flex;
+  flex-direction: column
+}
+.itemView-right-item{
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+.freetext{
+  color: gray;
+  font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.explaintext{
+  color: lightgray;
+  font-size: 65%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.addstyle{
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+.commiteView {
+  width: 50%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a91c6;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.commiteView-text{
+  color: white;
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.uncommiteView{
+    width: 50%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}

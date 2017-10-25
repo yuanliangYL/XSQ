@@ -1,0 +1,48 @@
+/* myprojects.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+}
+
+.setionview {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 2%;
+  background-color: white;
+  justify-content: flex-start;
+}
+
+.eachitem {
+  width: 33.33%;
+  height: 250rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachitem-content {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.eachitem-content image {
+  width: 75%;
+  height: 75%;
+  border-radius: 10%;
+}
+
+.eachitem-content text{
+   color: gray;
+  font-size: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+}

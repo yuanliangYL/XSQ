@@ -1,0 +1,19 @@
+<!--myprojects.wxml-->
+<view class="container">
+  <view class="setionview">
+
+    <view wx:for="[a b c d e f ]"class="eachitem">
+      <view class="eachitem-content">
+        <image mode="scaleToFill" src="../../images/adver.png"></image>
+        <text class="nametext">大愿科技</text>
+      </view>
+    </view>
+
+   
+
+
+
+
+  </view>
+
+</view>
